@@ -13,6 +13,6 @@ cargo build --target x86_64-unknown-linux-musl --release  --features openssl-sys
 ### build
 cargo build --release
 ### run
-.\npm-login-cli.exe -u jenkins_user -p jenkins_user -n https://npm-url/repository/npm-public/
+.\npm-login-cli.exe -u user -p user -n https://npm-url/repository/npm-public/
 ### Help
 .\npm-login-cli.exe --help
